@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test Suite">
+    <parameter name="environment" value="local"/>
+
+    <test name="PositiveLoginTest-Chome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="internetHeroKuappTest.test.PositiveLoginPageTest">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="NegativeLoginTest-Chome">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="internetHeroKuappTest.test.NegativeLoginPageTest">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="ForgotPassword-Chome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="internetHeroKuappTest.test.ForgotPasswordPageTest">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

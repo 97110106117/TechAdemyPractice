@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FirstTest-suite1">
+    <test
+          name="C:/Users/umanjalis/eclipse-workspace/flipkart/src/test/java/TechAdemyCourse/pageObject/test/FirstTest.java">
+        <classes>
+            <class name="selenium.pageObject.test.FirstTest">
+                <methods>
+                    <include name="firstTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

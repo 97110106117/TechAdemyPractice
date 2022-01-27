@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="BrowserDriverFactory-CH">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="selenium.masterSeleniumWebDriver.LoginTest">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="BrowserDriverFactory-FF">
+        <parameter name="browser" value="ff"></parameter>
+        <classes>
+            <class name="selenium.masterSeleniumWebDriver.LoginTest">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
