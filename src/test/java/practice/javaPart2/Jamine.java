@@ -1,4 +1,4 @@
-package practice;
+package practice.javaPart2;
 
 abstract class Flower {
     int i = 10;

@@ -1,4 +1,4 @@
-package practice;
+package practice.javaPart2;
 
 public class ExcepDemo {
     private String str ="a";

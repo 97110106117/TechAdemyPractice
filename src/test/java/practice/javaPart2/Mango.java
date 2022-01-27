@@ -1,4 +1,4 @@
-package practice;
+package practice.javaPart2;
 
 class Fruit {
     public void show() {
