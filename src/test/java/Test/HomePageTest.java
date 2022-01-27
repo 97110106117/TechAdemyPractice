@@ -12,6 +12,7 @@ public class HomePageTest {
     public void verifyFormAuthenticationVisible() {
         homePage = new HomePage(driver);
         homePage.isFormAuthenticationVisible();
+        //need to save commited changes on local repository
 
     }
 
