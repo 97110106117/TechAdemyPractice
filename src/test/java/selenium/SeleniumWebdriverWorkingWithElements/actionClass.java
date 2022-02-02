@@ -26,7 +26,7 @@ public class actionClass {
         driver.get("https://jqueryui.com/droppable/");
         actions = new Actions(driver);
         wait = new WebDriverWait(driver, 10);
-        System.out.println();
+        System.out.println("hello moto");
     }
 
     @AfterClass
