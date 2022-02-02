@@ -18,6 +18,7 @@ public class ClassB extends ClassA{
         //super.m1();
         m1();
         System.out.println("In child class :: m2 method");
+        System.out.println();
     }
 
     public static void main(String[] args) {
