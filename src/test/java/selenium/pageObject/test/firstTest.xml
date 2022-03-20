@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="FirstTest-suite1">
     <test
-          name="C:/Users/umanjalis/eclipse-workspace/flipkart/src/test/java/TechAdemyCourse/pageObject/test/FirstTest.java">
+          name="C:/Users/umanjalis/eclipse-workspace/flipkart/src/MockPractice.test/java/TechAdemyCourse/pageObject/MockPractice.test/FirstTest.java">
         <classes>
             <class name="selenium.pageObject.test.FirstTest">
                 <methods>

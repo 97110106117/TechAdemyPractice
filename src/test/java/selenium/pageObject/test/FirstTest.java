@@ -24,7 +24,7 @@ public class FirstTest extends BaseTest {
         softAssert.assertTrue(securePage.isLoginButtonVisible(),"Login button is not displayed.");
         softAssert.assertTrue(securePage.getPageSource().contains(" logged into a secure area!")," ");
 
-        softAssert.assertAll();// if we dnt write assertAll() - test will pass even assertion fail
+        softAssert.assertAll();// if we dnt write assertAll() - MockPractice.test will pass even assertion fail
 
 
 

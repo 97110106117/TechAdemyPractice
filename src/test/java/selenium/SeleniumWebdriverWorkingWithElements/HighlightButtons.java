@@ -82,7 +82,7 @@ public class HighlightButtons  extends BaseTest{
     @Test
     public void fillOutBox() {
         driver.navigate().to("https://ultimateqa.com/filling-out-forms/");
-        enterValue("//input[@id='et_pb_contact_name_1']","test");
+        enterValue("//input[@id='et_pb_contact_name_1']","MockPractice.test");
         enterValue("//textarea[@id='et_pb_contact_message_1']","testing");
     }
 
